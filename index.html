@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Draw & Play 🎨</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+
+  <h1>🎨 Draw & Play</h1>
+
+  <canvas id="drawingCanvas" width="800" height="500"></canvas>
+
+  <div class="controls">
+    <input type="color" id="colorPicker" />
+    <input type="range" id="brushSize" min="1" max="20" />
+    <button id="clearBtn">Clear</button>
+    <p id="networkStatus">Checking network speed...</p>
+  </div>
+
+<button id="dim">Observe New Tips</button>
+
+<section id="drawingTips2" class="tip-section">
+  <h2>💡 More Drawing Tips</h2>
+  <ul>
+    <li>Outline your art before filling in color.</li>
+    <li>Try using only grayscale!</li>
+    <li>Draw with your non-dominant hand for fun!</li>
+  </ul>
+</section>
+  <script src="app.js"></script>
+</body>
+</html>

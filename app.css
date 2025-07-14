@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+canvas {
+  border: 2px solid #000;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.tip-section {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #fff3cd;
+  border-left: 5px solid #ffc107;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tip-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
